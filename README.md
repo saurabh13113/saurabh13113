@@ -10,9 +10,13 @@
 <p align="center">
   <a href="https://saurabhnair.com"><img src="https://img.shields.io/badge/Portfolio-saurabhnair.com-58a6ff?style=for-the-badge&logo=googlechrome&logoColor=white&labelColor=1c1c22" alt="Portfolio" /></a>
   <a href="https://www.linkedin.com/in/saurabhnair13113"><img src="https://img.shields.io/badge/LinkedIn-saurabhnair13113-0a66c2?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=1c1c22" alt="LinkedIn" /></a>
+  <a href="https://saurabhnair.com/assets/resume.pdf"><img src="https://img.shields.io/badge/Resume-download%20PDF-2ea043?style=for-the-badge&logo=readdotcv&logoColor=white&labelColor=1c1c22" alt="Resume" /></a>
   <a href="mailto:saurabhnair13113@gmail.com"><img src="https://img.shields.io/badge/Email-say%20hi-ea4335?style=for-the-badge&logo=gmail&logoColor=white&labelColor=1c1c22" alt="Email" /></a>
   <a href="https://instagram.com/saurabh_13113"><img src="https://img.shields.io/badge/Instagram-saurabh__13113-e4405f?style=for-the-badge&logo=instagram&logoColor=white&labelColor=1c1c22" alt="Instagram" /></a>
 </p>
+
+> [!TIP]
+> **🟢 Open to new-grad SWE roles (2027).** CS + Econ @ UofT, ex-Bayer software developer intern, and a TA for 150+ students. [Grab my resume](https://saurabhnair.com/assets/resume.pdf) or [say hi](mailto:saurabhnair13113@gmail.com).
 
 <p align="center">
   <img src="https://komarev.com/ghpvc/?username=saurabh13113&color=58a6ff&style=flat-square&label=PROFILE+VIEWS" alt="profile views" />
@@ -22,7 +26,11 @@
 
 ## 👋 About me
 
+<img align="right" src="assets/portrait.png" width="220" alt="Pixel-art portrait of Saurabh" />
+
 Software developer from Abu Dhabi 🇦🇪, now studying **Computer Science + Economics** at the **University of Toronto** 🇨🇦 (grad June 2027). I like building products that sit at the edge of AI and real usability, and I've lived in over 5 countries along the way.
+
+<br clear="right" />
 
 | | |
 |---|---|
@@ -122,9 +130,21 @@ Software developer from Abu Dhabi 🇦🇪, now studying **Computer Science + Ec
 
 ## 📊 GitHub stats
 
+<!-- STATS:START -->
+_Updating soon, the next workflow run will fill this in._
+<!-- STATS:END -->
+
+---
+
+## 🐱 My pixel pet
+
 <p align="center">
-  <img height="170" src="https://github-readme-stats.vercel.app/api?username=saurabh13113&show_icons=true&theme=tokyonight&hide_border=true&bg_color=1c1c22&count_private=true" alt="GitHub stats" />
-  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs?username=saurabh13113&layout=compact&theme=tokyonight&hide_border=true&bg_color=1c1c22" alt="Top languages" />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/saurabh13113/saurabh13113/main/dist/pet.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/saurabh13113/saurabh13113/main/dist/pet-light.svg" />
+    <img alt="A pixel cat that reacts to my GitHub activity" src="https://raw.githubusercontent.com/saurabh13113/saurabh13113/main/dist/pet.svg" width="100%" />
+  </picture><br>
+  <sub>It naps at night and gets hungry if I go quiet. Powered by <a href="https://github.com/prsdx/github-pet">github-pet</a>.</sub>
 </p>
 
 ---
