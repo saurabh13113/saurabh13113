@@ -4,7 +4,7 @@
 </p>
 
 <p align="center">
-  <a href="https://saurabhnair.com"><img src="https://readme-typing-svg.demolab.com/?lines=Building+GenAI+%26+full-stack+products;Python+%7C+TypeScript+%7C+React%2FNext.js+%7C+Java;ex-Bayer+%C2%B7+TA+%40+UofT+%C2%B7+ex-Lead+Organizer+%40+DeerHacks;Open+to+new-grad+SWE+roles+(2027)&font=Fira%20Code&center=true&width=620&height=45&color=58A6FF&vCenter=true&size=20&pause=1200" alt="Typing SVG" /></a>
+  <a href="https://saurabhnair.com"><img src="https://readme-typing-svg.demolab.com/?lines=Building+GenAI+%26+full-stack+products;Python+%7C+TypeScript+%7C+React%2FNext.js+%7C+Java;ex-Bayer+%C2%B7+TA+%40+UofT+%C2%B7+ex-Lead+Organizer+%40+DeerHacks;Open+to+new-grad+SWE+roles+(2027)&font=Press%20Start%202P&center=true&width=760&height=45&color=58A6FF&vCenter=true&size=13&pause=1200" alt="Typing SVG" /></a>
 </p>
 
 <p align="center">
@@ -127,12 +127,13 @@ Software developer from Abu Dhabi 🇦🇪, now studying **Computer Science + Ec
   <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs?username=saurabh13113&layout=compact&theme=tokyonight&hide_border=true&bg_color=1c1c22" alt="Top languages" />
 </p>
 
-<p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=saurabh13113&theme=tokyonight&hide_border=true&background=1c1c22" alt="Streak stats" />
-</p>
+---
+
+## 🌳 My bonsai
 
 <p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=saurabh13113&theme=tokyonight&no-frame=true&no-bg=true&row=1&column=6" alt="Trophies" />
+  <img src="output/bonsai-growth.gif" alt="A pixel-art bonsai grown from my GitHub activity" width="360" /><br>
+  <sub>Grown from my GitHub history with <a href="https://github.com/egorthinks/git-bonsai">git-bonsai</a>: streaks add blossoms, long gaps leave deadwood.</sub>
 </p>
 
 ---
@@ -152,24 +153,13 @@ Software developer from Abu Dhabi 🇦🇪, now studying **Computer Science + Ec
 ## ⚡ Recently shipped <sub>(auto-updated)</sub>
 
 <!-- RECENT_REPOS:START -->
-| Repo | What it is | Lang | Updated |
-|---|---|---|---|
-| [csc413-project](https://github.com/saurabh13113/csc413-project) | — | TeX | 5d ago |
-| [neetcode-submissions](https://github.com/saurabh13113/neetcode-submissions) | My NeetCode.io problem submissions | Python | 16d ago |
-| [saur-portofolio](https://github.com/saurabh13113/saur-portofolio) | — | JavaScript | 36d ago |
-| [ClinicEar-GenAI2026](https://github.com/saurabh13113/ClinicEar-GenAI2026) | — | TypeScript | 237d ago |
-| [pantry-app](https://github.com/saurabh13113/pantry-app) | Summer Project that uses FireBase, React and Next.js to build a simple pantry tracker app. | JavaScript | 238d ago |
+_Updating soon, the first workflow run will fill this in._
 <!-- RECENT_REPOS:END -->
 
 ## 🕒 Latest activity <sub>(auto-updated)</sub>
 
 <!-- ACTIVITY:START -->
-- ⬆️ Pushed 1 commit to [neetcode-submissions](https://github.com/saurabh13113/neetcode-submissions) · <sub>16d ago</sub>
-- ⬆️ Pushed 1 commit to [neetcode-submissions](https://github.com/saurabh13113/neetcode-submissions) · <sub>16d ago</sub>
-- ⬆️ Pushed 1 commit to [neetcode-submissions](https://github.com/saurabh13113/neetcode-submissions) · <sub>16d ago</sub>
-- ⬆️ Pushed 1 commit to [neetcode-submissions](https://github.com/saurabh13113/neetcode-submissions) · <sub>16d ago</sub>
-- ⬆️ Pushed 1 commit to [neetcode-submissions](https://github.com/saurabh13113/neetcode-submissions) · <sub>16d ago</sub>
-- ⬆️ Pushed 1 commit to [neetcode-submissions](https://github.com/saurabh13113/neetcode-submissions) · <sub>16d ago</sub>
+_Updating soon, the first workflow run will fill this in._
 <!-- ACTIVITY:END -->
 
 ---
