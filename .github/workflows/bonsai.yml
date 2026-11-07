@@ -1,0 +1,22 @@
+name: Grow bonsai
+
+on:
+  schedule:
+    - cron: "7 4 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  grow:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Grow the bonsai
+        uses: egorthinks/git-bonsai@v1
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          user: ${{ github.repository_owner }}
