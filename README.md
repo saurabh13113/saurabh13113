@@ -19,7 +19,7 @@
 > **🟢 Open to new-grad SWE roles (2027).** CS + Econ @ UofT, ex-Bayer software developer intern, and a TA for 150+ students. [Grab my resume](https://saurabhnair.com/assets/resume.pdf) or [say hi](mailto:saurabhnair13113@gmail.com).
 
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=saurabh13113&color=58a6ff&style=flat-square&label=PROFILE+VIEWS" alt="profile views" />
+  <img src="https://komarev.com/ghpvc/?username=saurabh13113&color=58a6ff&style=for-the-badge&label=VISITORS&labelColor=1c1c22" alt="visitor count" />
 </p>
 
 ---
@@ -150,16 +150,15 @@ C                 ░░░░░░░░░░░░░░░░░░░░  
 
 ---
 
-## 🐱 My pixel pet
+## 🐱 Pet my pixel cat
 
+<!-- PET:START -->
 <p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/saurabh13113/saurabh13113/main/dist/pet.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/saurabh13113/saurabh13113/main/dist/pet-light.svg" />
-    <img alt="A pixel cat that reacts to my GitHub activity" src="https://raw.githubusercontent.com/saurabh13113/saurabh13113/main/dist/pet.svg" width="100%" />
-  </picture><br>
-  <sub>It naps at night and gets hungry if I go quiet. Powered by <a href="https://github.com/prsdx/github-pet">github-pet</a>.</sub>
+  <a href="https://github.com/saurabh13113/saurabh13113/issues/new?title=pet-me&body=Just%20petting%20the%20cat%20%F0%9F%90%B1.%20There%27s%20nothing%20to%20write%3A%20click%20%E2%80%9CSubmit%20new%20issue%E2%80%9D%20and%20the%20bot%20does%20the%20rest."><img src="pet/pixel-idle.svg" width="320" alt="Pixel, a pixel cat, is idle. Click to pet." /></a><br>
+  <b>Pixel is chilling</b> · petted <b>0</b> times<br>
+  <sub>👆 Click the cat to pet it. It opens a pre-filled issue (you need to be signed in to GitHub) and a bot does the rest.</sub>
 </p>
+<!-- PET:END -->
 
 ---
 

@@ -1,0 +1,65 @@
+name: Pixel pet
+
+on:
+  issues:
+    types: [opened]
+  schedule:
+    - cron: "13 */3 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  issues: write
+
+concurrency:
+  group: pixel-pet
+  cancel-in-progress: false
+
+jobs:
+  pet:
+    # Issues only count when the title starts with "pet"; scheduled and manual runs always go.
+    if: github.event_name != 'issues' || startsWith(github.event.issue.title, 'pet')
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Update the pet
+        env:
+          EVENT_NAME: ${{ github.event_name }}
+          ISSUE_USER: ${{ github.event.issue.user.login }}
+          PET_MESSAGE_FILE: ${{ runner.temp }}/pet-message.txt
+        run: |
+          if [ "$EVENT_NAME" = "issues" ]; then
+            python .github/scripts/pet_state.py --pet "$ISSUE_USER"
+          else
+            python .github/scripts/pet_state.py --refresh
+          fi
+
+      - name: Commit changes
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add README.md pet/state.json
+          if git diff --cached --quiet; then
+            echo "Nothing to commit"
+            exit 0
+          fi
+          git commit -m "chore(pet): update pixel pet"
+          git pull --rebase
+          git push
+
+      - name: Reply and close the issue
+        if: github.event_name == 'issues'
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GH_REPO: ${{ github.repository }}
+          ISSUE_NUMBER: ${{ github.event.issue.number }}
+          PET_MESSAGE_FILE: ${{ runner.temp }}/pet-message.txt
+        run: |
+          gh issue comment "$ISSUE_NUMBER" --body-file "$PET_MESSAGE_FILE"
+          gh issue close "$ISSUE_NUMBER" --reason completed
