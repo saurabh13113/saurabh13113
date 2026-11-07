@@ -1,0 +1,24 @@
+name: Feed the pixel pet
+
+on:
+  schedule:
+    - cron: "23 */6 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  pet:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Update the pet
+        uses: prsdx/github-pet@v1
+        with:
+          username: ${{ github.repository_owner }}
+          # Eastern time (UTC-5). Use -240 during daylight saving time.
+          timezone-offset-minutes: "-300"
+          accent-color: "#58a6ff"
