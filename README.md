@@ -152,13 +152,24 @@ Software developer from Abu Dhabi 🇦🇪, now studying **Computer Science + Ec
 ## ⚡ Recently shipped <sub>(auto-updated)</sub>
 
 <!-- RECENT_REPOS:START -->
-_Updating soon, the first workflow run will fill this in._
+| Repo | What it is | Lang | Updated |
+|---|---|---|---|
+| [csc413-project](https://github.com/saurabh13113/csc413-project) | — | TeX | 5d ago |
+| [neetcode-submissions](https://github.com/saurabh13113/neetcode-submissions) | My NeetCode.io problem submissions | Python | 16d ago |
+| [saur-portofolio](https://github.com/saurabh13113/saur-portofolio) | — | JavaScript | 36d ago |
+| [ClinicEar-GenAI2026](https://github.com/saurabh13113/ClinicEar-GenAI2026) | — | TypeScript | 237d ago |
+| [pantry-app](https://github.com/saurabh13113/pantry-app) | Summer Project that uses FireBase, React and Next.js to build a simple pantry tracker app. | JavaScript | 238d ago |
 <!-- RECENT_REPOS:END -->
 
 ## 🕒 Latest activity <sub>(auto-updated)</sub>
 
 <!-- ACTIVITY:START -->
-_Updating soon, the first workflow run will fill this in._
+- ⬆️ Pushed 1 commit to [neetcode-submissions](https://github.com/saurabh13113/neetcode-submissions) · <sub>16d ago</sub>
+- ⬆️ Pushed 1 commit to [neetcode-submissions](https://github.com/saurabh13113/neetcode-submissions) · <sub>16d ago</sub>
+- ⬆️ Pushed 1 commit to [neetcode-submissions](https://github.com/saurabh13113/neetcode-submissions) · <sub>16d ago</sub>
+- ⬆️ Pushed 1 commit to [neetcode-submissions](https://github.com/saurabh13113/neetcode-submissions) · <sub>16d ago</sub>
+- ⬆️ Pushed 1 commit to [neetcode-submissions](https://github.com/saurabh13113/neetcode-submissions) · <sub>16d ago</sub>
+- ⬆️ Pushed 1 commit to [neetcode-submissions](https://github.com/saurabh13113/neetcode-submissions) · <sub>16d ago</sub>
 <!-- ACTIVITY:END -->
 
 ---
