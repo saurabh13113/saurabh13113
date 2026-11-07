@@ -134,7 +134,18 @@ Software developer from Abu Dhabi 🇦🇪, now studying **Computer Science + Ec
 ## 📊 GitHub stats
 
 <!-- STATS:START -->
-_Updating soon, the next workflow run will fill this in._
+| 📦 Public repos | ⭐ Stars earned | 👥 Followers | 📅 On GitHub since |
+|:-:|:-:|:-:|:-:|
+| 31 | 6 | 10 | 2022 |
+
+```text
+JavaScript        █████████░░░░░░░░░░░   46.4%
+Python            ████░░░░░░░░░░░░░░░░   21.1%
+Jupyter Notebook  ██░░░░░░░░░░░░░░░░░░   10.3%
+TypeScript        ██░░░░░░░░░░░░░░░░░░   10.3%
+Java              █░░░░░░░░░░░░░░░░░░░    5.2%
+C                 ░░░░░░░░░░░░░░░░░░░░    2.5%
+```
 <!-- STATS:END -->
 
 ---
@@ -176,13 +187,19 @@ _Updating soon, the next workflow run will fill this in._
 ## ⚡ Recently shipped <sub>(auto-updated)</sub>
 
 <!-- RECENT_REPOS:START -->
-_Updating soon, the first workflow run will fill this in._
+| Repo | What it is | Lang | Updated |
+|---|---|---|---|
+| [neetcode-submissions](https://github.com/saurabh13113/neetcode-submissions) | My NeetCode.io problem submissions | Python | 16d ago |
+| [pantry-app](https://github.com/saurabh13113/pantry-app) | Summer Project that uses FireBase, React and Next.js to build a simple pantry tracker app. | JavaScript | 238d ago |
+| [math-chatbot](https://github.com/saurabh13113/math-chatbot) | Summer Project that uses Meta Llama to build an AI chatbot to help students out on a math website that helps with math problems and practice math using next.js, react, vercel. | JavaScript | 238d ago |
+| [ECO225_Tutorial1_2026](https://github.com/saurabh13113/ECO225_Tutorial1_2026) | Tutorial 1 for ECO225 | — | 298d ago |
+| [battleship-solitaire-solver](https://github.com/saurabh13113/battleship-solitaire-solver) | University project that solves Battleship solitaire game using Constraint Satisfaction and GAC. | Python | 678d ago |
 <!-- RECENT_REPOS:END -->
 
 ## 🕒 Latest activity <sub>(auto-updated)</sub>
 
 <!-- ACTIVITY:START -->
-_Updating soon, the first workflow run will fill this in._
+- ⬆️ Pushed 9 commits to [neetcode-submissions](https://github.com/saurabh13113/neetcode-submissions) · <sub>16d ago</sub>
 <!-- ACTIVITY:END -->
 
 ---
