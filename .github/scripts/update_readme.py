@@ -49,7 +49,11 @@ def repo_link(name):
 
 def recent_repos():
     repos = api(f"/users/{USER}/repos?sort=pushed&per_page=30&type=owner")
-    repos = [r for r in repos if not r["fork"] and r["name"].lower() != USER.lower()]
+    # Only repos with a description: an empty "What it is" column looks unfinished.
+    repos = [
+        r for r in repos
+        if not r["fork"] and r["name"].lower() != USER.lower() and r["description"]
+    ]
     lines = ["| Repo | What it is | Lang | Updated |", "|---|---|---|---|"]
     for r in repos[:MAX_REPOS]:
         desc = (r["description"] or "—").replace("|", "\\|")
@@ -81,18 +85,68 @@ def describe(ev):
 
 
 def activity():
-    events = api(f"/users/{USER}/events/public?per_page=50")
-    out = []
+    events = api(f"/users/{USER}/events/public?per_page=100")
+    items = {}  # insertion-ordered, newest first
     for ev in events:
         # skip noise from the profile repo itself (the bot's own README commits)
         if ev["repo"]["name"].lower() == f"{USER}/{USER}".lower():
             continue
+        if ev["type"] == "PushEvent":
+            # collapse many pushes to one repo into a single line with a total
+            key = ("push", ev["repo"]["name"])
+            n = ev["payload"].get("size") or len(ev["payload"].get("commits", [])) or 1
+            if key in items:
+                items[key]["n"] += n
+            else:
+                items[key] = {"repo": ev["repo"]["name"], "n": n, "time": ev["created_at"]}
+            continue
         text = describe(ev)
-        if text:
-            out.append(f"- {text} · <sub>{ago(ev['created_at'])}</sub>")
-        if len(out) >= MAX_EVENTS:
-            break
+        if text and ("other", text) not in items:
+            items[("other", text)] = {"text": text, "time": ev["created_at"]}
+
+    out = []
+    for key, it in list(items.items())[:MAX_EVENTS]:
+        if key[0] == "push":
+            plural = "s" if it["n"] != 1 else ""
+            text = f"⬆️ Pushed {it['n']} commit{plural} to {repo_link(it['repo'])}"
+        else:
+            text = it["text"]
+        out.append(f"- {text} · <sub>{ago(it['time'])}</sub>")
     return "\n".join(out) or "_Nothing public lately, check back soon._"
+
+
+def stats():
+    user = api(f"/users/{USER}")
+    repos = api(f"/users/{USER}/repos?per_page=100&type=owner")
+    repos = [r for r in repos if not r["fork"]]
+    stars = sum(r["stargazers_count"] for r in repos)
+
+    totals = {}
+    for r in repos[:40]:
+        try:
+            for lang, n in api(f"/repos/{USER}/{r['name']}/languages").items():
+                totals[lang] = totals.get(lang, 0) + n
+        except Exception:
+            continue  # one repo failing should not break the whole section
+
+    since = user["created_at"][:4]
+    lines = [
+        "| 📦 Public repos | ⭐ Stars earned | 👥 Followers | 📅 On GitHub since |",
+        "|:-:|:-:|:-:|:-:|",
+        f"| {user['public_repos']} | {stars} | {user['followers']} | {since} |",
+        "",
+    ]
+    total = sum(totals.values())
+    if total:
+        lines.append("```text")
+        top = sorted(totals.items(), key=lambda kv: -kv[1])[:6]
+        width = max(len(lang) for lang, _ in top) + 2
+        for lang, n in top:
+            pct = 100 * n / total
+            filled = round(pct / 5)
+            lines.append(f"{lang:<{width}}{'█' * filled}{'░' * (20 - filled)}  {pct:5.1f}%")
+        lines.append("```")
+    return "\n".join(lines)
 
 
 def replace_block(text, name, body):
@@ -105,7 +159,8 @@ def replace_block(text, name, body):
 def main():
     with open(README, encoding="utf-8") as f:
         original = f.read()
-    updated = replace_block(original, "RECENT_REPOS", recent_repos())
+    updated = replace_block(original, "STATS", stats())
+    updated = replace_block(updated, "RECENT_REPOS", recent_repos())
     updated = replace_block(updated, "ACTIVITY", activity())
     if updated != original:
         with open(README, "w", encoding="utf-8") as f:
