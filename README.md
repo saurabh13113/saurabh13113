@@ -72,10 +72,13 @@ Software developer from Abu Dhabi 🇦🇪, now studying **Computer Science + Ec
     </td>
     <td width="50%" valign="top">
       <h3>🩺 <a href="https://github.com/saurabh13113/ClinicEar-GenAI2026">ClinicEar</a></h3>
-      GenAI project built for GenAI Genesis 2026.<br><br>
-      <img src="https://img.shields.io/badge/GenAI-58a6ff?style=flat-square" />
-      <img src="https://img.shields.io/badge/Python-3776ab?style=flat-square&logo=python&logoColor=white" /><br><br>
-      <a href="https://github.com/saurabh13113/ClinicEar-GenAI2026">Code</a>
+      AI clinical note generator: listens to doctor-patient consultations in real time and drafts a structured SOAP note with ICD-10 suggestions and documentation-gap flags. Built for GenAI Genesis 2026 (Sun Life + IBM tracks).<br><br>
+      <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white" />
+      <img src="https://img.shields.io/badge/React-61dafb?style=flat-square&logo=react&logoColor=black" />
+      <img src="https://img.shields.io/badge/TypeScript-3178c6?style=flat-square&logo=typescript&logoColor=white" />
+      <img src="https://img.shields.io/badge/Supabase-3ecf8e?style=flat-square&logo=supabase&logoColor=white" />
+      <img src="https://img.shields.io/badge/IBM%20watsonx.ai-0f62fe?style=flat-square&logo=ibm&logoColor=white" /><br><br>
+      <a href="https://frontend-delta-ochre-79.vercel.app">Live demo</a> · <a href="https://github.com/saurabh13113/ClinicEar-GenAI2026">Code</a>
     </td>
   </tr>
   <tr>
@@ -173,24 +176,13 @@ _Updating soon, the next workflow run will fill this in._
 ## ⚡ Recently shipped <sub>(auto-updated)</sub>
 
 <!-- RECENT_REPOS:START -->
-| Repo | What it is | Lang | Updated |
-|---|---|---|---|
-| [csc413-project](https://github.com/saurabh13113/csc413-project) | — | TeX | 5d ago |
-| [neetcode-submissions](https://github.com/saurabh13113/neetcode-submissions) | My NeetCode.io problem submissions | Python | 16d ago |
-| [saur-portofolio](https://github.com/saurabh13113/saur-portofolio) | — | JavaScript | 36d ago |
-| [ClinicEar-GenAI2026](https://github.com/saurabh13113/ClinicEar-GenAI2026) | — | TypeScript | 237d ago |
-| [pantry-app](https://github.com/saurabh13113/pantry-app) | Summer Project that uses FireBase, React and Next.js to build a simple pantry tracker app. | JavaScript | 238d ago |
+_Updating soon, the first workflow run will fill this in._
 <!-- RECENT_REPOS:END -->
 
 ## 🕒 Latest activity <sub>(auto-updated)</sub>
 
 <!-- ACTIVITY:START -->
-- ⬆️ Pushed 1 commit to [neetcode-submissions](https://github.com/saurabh13113/neetcode-submissions) · <sub>16d ago</sub>
-- ⬆️ Pushed 1 commit to [neetcode-submissions](https://github.com/saurabh13113/neetcode-submissions) · <sub>16d ago</sub>
-- ⬆️ Pushed 1 commit to [neetcode-submissions](https://github.com/saurabh13113/neetcode-submissions) · <sub>16d ago</sub>
-- ⬆️ Pushed 1 commit to [neetcode-submissions](https://github.com/saurabh13113/neetcode-submissions) · <sub>16d ago</sub>
-- ⬆️ Pushed 1 commit to [neetcode-submissions](https://github.com/saurabh13113/neetcode-submissions) · <sub>16d ago</sub>
-- ⬆️ Pushed 1 commit to [neetcode-submissions](https://github.com/saurabh13113/neetcode-submissions) · <sub>16d ago</sub>
+_Updating soon, the first workflow run will fill this in._
 <!-- ACTIVITY:END -->
 
 ---
