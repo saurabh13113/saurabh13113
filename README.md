@@ -18,10 +18,6 @@
 > [!TIP]
 > **🟢 Open to new-grad SWE roles (2027).** CS + Econ @ UofT, ex-Bayer software developer intern, and a TA for 150+ students. [Grab my resume](https://saurabhnair.com/assets/resume.pdf) or [say hi](mailto:saurabhnair13113@gmail.com).
 
-<p align="center">
-  <img src="https://komarev.com/ghpvc/?username=saurabh13113&color=58a6ff&style=for-the-badge&label=VISITORS&labelColor=1c1c22" alt="visitor count" />
-</p>
-
 ---
 
 ## 👋 About me
@@ -38,21 +34,7 @@ Software developer from Abu Dhabi 🇦🇪, now studying **Computer Science + Ec
 | 🌱 **Leveling up** | React/Next.js, FastAPI, Swift |
 | 💬 **Ask me about** | Python, JavaScript/TypeScript, MySQL, GenAI/LLM apps |
 | 🎓 **Teaching** | TA @ UofT: CSC236, CSC263, ECO225 (150+ students) |
-| 🏆 **Organizing** | Led **DeerHacks**, a 500+ participant student hackathon at UTM |
-| 💼 **Looking for** | New-grad SWE roles (2027) |
-
-<details>
-<summary><b>💼 Experience at a glance</b></summary>
-<br>
-
-| When | Role | Highlights |
-|---|---|---|
-| May 2025 – Aug 2026 | **Software Developer Intern**, Bayer Canada | Radimetrics dose-management platform: exam-level alert filtering (**+28%** accuracy), Jenkins/AWS OS patch pipeline (**−35%** release prep), RHEL/Alma dependency upgrades (**−20%** post-release defects) |
-| Sep 2024 – May 2025 | **Software Engineering Intern**, Kaytoons Inc. | Backend for a children's learning app; PlayHT voice cloning in Python (**+18%** session duration) |
-| Sep 2024 – Present | **Teaching Assistant**, University of Toronto | Grading, office hours, and support for 150+ students |
-| Jun – Aug 2024 | **ML Intern**, Emirates Steel Arkan | Predictive maintenance on sensor data (**−15%** unplanned downtime), real-time consumption dashboard |
-
-</details>
+| 🏆 **Leadership** | Led **DeerHacks**, a 500+ participant student hackathon at UTM |
 
 ---
 
@@ -61,60 +43,44 @@ Software developer from Abu Dhabi 🇦🇪, now studying **Computer Science + Ec
 <table>
   <tr>
     <td width="50%" valign="top">
-      <h3>🧠 <a href="https://github.com/saurabh13113/feynomenon-chatbot">Feynomenon</a> 🏆</h3>
-      <b>Winner, TMU Solution Hacks '25.</b> Adaptive AI tutor built on the Feynman technique, with Gemini-generated responses and session analytics.<br><br>
-      <img src="https://img.shields.io/badge/Next.js-000?style=flat-square&logo=nextdotjs" />
-      <img src="https://img.shields.io/badge/Tailwind-06b6d4?style=flat-square&logo=tailwindcss&logoColor=white" />
-      <img src="https://img.shields.io/badge/Firebase-ffca28?style=flat-square&logo=firebase&logoColor=black" />
-      <img src="https://img.shields.io/badge/MongoDB-47a248?style=flat-square&logo=mongodb&logoColor=white" />
-      <img src="https://img.shields.io/badge/Gemini-8e75b2?style=flat-square&logo=googlegemini&logoColor=white" /><br><br>
-      <a href="https://feynomenon-chatbot.vercel.app/">Live demo</a> · <a href="https://github.com/saurabh13113/feynomenon-chatbot">Code</a>
-    </td>
-    <td width="50%" valign="top">
       <h3>🩺 <a href="https://github.com/saurabh13113/ClinicEar-GenAI2026">ClinicEar</a></h3>
       AI clinical note generator: listens to doctor-patient consultations in real time and drafts a structured SOAP note with ICD-10 suggestions and documentation-gap flags. Built for GenAI Genesis 2026 (Sun Life + IBM tracks).<br><br>
-      <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white" />
-      <img src="https://img.shields.io/badge/React-61dafb?style=flat-square&logo=react&logoColor=black" />
-      <img src="https://img.shields.io/badge/TypeScript-3178c6?style=flat-square&logo=typescript&logoColor=white" />
-      <img src="https://img.shields.io/badge/Supabase-3ecf8e?style=flat-square&logo=supabase&logoColor=white" />
-      <img src="https://img.shields.io/badge/IBM%20watsonx.ai-0f62fe?style=flat-square&logo=ibm&logoColor=white" /><br><br>
+      <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white" alt="FastAPI" />
+      <img src="https://img.shields.io/badge/React-61dafb?style=flat-square&logo=react&logoColor=black" alt="React" />
+      <img src="https://img.shields.io/badge/TypeScript-3178c6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript" />
+      <img src="https://img.shields.io/badge/Supabase-3ecf8e?style=flat-square&logo=supabase&logoColor=white" alt="Supabase" />
+      <img src="https://img.shields.io/badge/IBM%20watsonx.ai-0f62fe?style=flat-square&logo=ibm&logoColor=white" alt="IBM watsonx.ai" /><br><br>
       <a href="https://frontend-delta-ochre-79.vercel.app">Live demo</a> · <a href="https://github.com/saurabh13113/ClinicEar-GenAI2026">Code</a>
     </td>
-  </tr>
-  <tr>
     <td width="50%" valign="top">
-      <h3>➗ <a href="https://math-chatbot-eta.vercel.app/">Math Chat Bot</a></h3>
-      Llama-powered chatbot that helps students work through math problems.<br><br>
-      <img src="https://img.shields.io/badge/React-61dafb?style=flat-square&logo=react&logoColor=black" />
-      <img src="https://img.shields.io/badge/Next.js-000?style=flat-square&logo=nextdotjs" />
-      <img src="https://img.shields.io/badge/Material%20UI-007fff?style=flat-square&logo=mui&logoColor=white" /><br><br>
-      <a href="https://math-chatbot-eta.vercel.app/">Live demo</a> · <a href="https://github.com/saurabh13113/math-chatbot">Code</a>
-    </td>
-    <td width="50%" valign="top">
-      <h3>📈 <a href="https://github.com/saurabh13113/ml-stock-price-predictor">ML Stock Price Predictor</a></h3>
-      scikit-learn + pandas model over S&amp;P 500 data to predict next-day prices.<br><br>
-      <img src="https://img.shields.io/badge/Python-3776ab?style=flat-square&logo=python&logoColor=white" />
-      <img src="https://img.shields.io/badge/scikit--learn-f7931e?style=flat-square&logo=scikitlearn&logoColor=white" />
-      <img src="https://img.shields.io/badge/Jupyter-f37626?style=flat-square&logo=jupyter&logoColor=white" /><br><br>
-      <a href="https://github.com/saurabh13113/ml-stock-price-predictor">Code</a>
+      <h3>🧠 <a href="https://github.com/saurabh13113/feynomenon-chatbot">Feynomenon</a> 🏆</h3>
+      <b>Winner, TMU Solution Hacks '25.</b> Adaptive AI tutor built on the Feynman technique, with Gemini-generated responses and session analytics.<br><br>
+      <img src="https://img.shields.io/badge/Next.js-000?style=flat-square&logo=nextdotjs" alt="Next.js" />
+      <img src="https://img.shields.io/badge/Tailwind-06b6d4?style=flat-square&logo=tailwindcss&logoColor=white" alt="Tailwind" />
+      <img src="https://img.shields.io/badge/Firebase-ffca28?style=flat-square&logo=firebase&logoColor=black" alt="Firebase" />
+      <img src="https://img.shields.io/badge/MongoDB-47a248?style=flat-square&logo=mongodb&logoColor=white" alt="MongoDB" />
+      <img src="https://img.shields.io/badge/Gemini-8e75b2?style=flat-square&logo=googlegemini&logoColor=white" alt="Gemini" /><br><br>
+      <a href="https://feynomenon-chatbot.vercel.app/">Live demo</a> · <a href="https://github.com/saurabh13113/feynomenon-chatbot">Code</a>
     </td>
   </tr>
   <tr>
     <td width="50%" valign="top">
       <h3>🚢 <a href="https://github.com/saurabh13113/battleship-solitaire-solver">Battleship Solitaire Solver</a></h3>
       Constraint-satisfaction + GAC solver for Battleship Solitaire.<br><br>
-      <img src="https://img.shields.io/badge/Python-3776ab?style=flat-square&logo=python&logoColor=white" /><br><br>
+      <img src="https://img.shields.io/badge/Python-3776ab?style=flat-square&logo=python&logoColor=white" alt="Python" /><br><br>
       <a href="https://github.com/saurabh13113/battleship-solitaire-solver">Code</a>
     </td>
     <td width="50%" valign="top">
       <h3>🥫 <a href="https://pantry-app-lac.vercel.app/">Pantry Tracker</a></h3>
       Pantry management app with Next.js, Material UI and Firebase.<br><br>
-      <img src="https://img.shields.io/badge/Next.js-000?style=flat-square&logo=nextdotjs" />
-      <img src="https://img.shields.io/badge/Firebase-ffca28?style=flat-square&logo=firebase&logoColor=black" /><br><br>
+      <img src="https://img.shields.io/badge/Next.js-000?style=flat-square&logo=nextdotjs" alt="Next.js" />
+      <img src="https://img.shields.io/badge/Firebase-ffca28?style=flat-square&logo=firebase&logoColor=black" alt="Firebase" /><br><br>
       <a href="https://pantry-app-lac.vercel.app/">Live demo</a> · <a href="https://github.com/saurabh13113/pantry-app">Code</a>
     </td>
   </tr>
 </table>
+
+<p align="center"><sub>Also: <a href="https://github.com/saurabh13113/math-chatbot">Math Chat Bot</a> (Llama math tutor, <a href="https://math-chatbot-eta.vercel.app/">demo</a>) · <a href="https://github.com/saurabh13113/ml-stock-price-predictor">ML Stock Price Predictor</a> (scikit-learn, S&amp;P 500)</sub></p>
 
 <p align="center">
   <a href="https://saurabhnair.com/projects"><b>See all projects on saurabhnair.com →</b></a>
@@ -122,16 +88,33 @@ Software developer from Abu Dhabi 🇦🇪, now studying **Computer Science + Ec
 
 ---
 
+## 💼 Experience
+
+| When | Role | Highlights |
+|---|---|---|
+| May 2025 – Aug 2026 | **Software Developer Intern**, Bayer Canada | Radimetrics dose-management platform: exam-level alert filtering (**+28%** accuracy), Jenkins/AWS OS patch pipeline (**−35%** release prep), RHEL/Alma dependency upgrades (**−20%** post-release defects) |
+| Sep 2024 – May 2025 | **Software Engineering Intern**, Kaytoons Inc. | Backend for a children's learning app; PlayHT voice cloning in Python (**+18%** session duration) |
+| Sep 2024 – Present | **Teaching Assistant**, University of Toronto | Grading, office hours, and support for 150+ students |
+| Jun – Aug 2024 | **ML Intern**, Emirates Steel Arkan | Predictive maintenance on sensor data (**−15%** unplanned downtime), real-time consumption dashboard |
+
+
+---
+
 ## 🛠️ Tech stack
 
 <p align="center">
   <img src="https://skillicons.dev/icons?i=py,js,ts,java,c,react,nextjs,tailwind,fastapi,spring,nodejs&theme=dark" alt="languages and frameworks" /><br>
-  <img src="https://skillicons.dev/icons?i=postgres,mysql,mongodb,firebase,docker,aws,jenkins,linux,git,swift,vercel&theme=dark" alt="data and tools" />
+  <img src="https://skillicons.dev/icons?i=postgres,mysql,mongodb,firebase,docker,aws,jenkins,linux,git,swift,vercel&theme=dark" alt="data and tools" /><br>
+  <sub>Python · JavaScript · TypeScript · Java · C · React · Next.js · Tailwind · FastAPI · Spring · Node.js · PostgreSQL · MySQL · MongoDB · Firebase · Docker · AWS · Jenkins · Linux · Git · Swift · Vercel</sub>
 </p>
 
 ---
 
 ## 📊 GitHub stats
+
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=saurabh13113&color=58a6ff&style=for-the-badge&label=VISITORS&labelColor=1c1c22" alt="visitor count" />
+</p>
 
 <!-- STATS:START -->
 | 📦 Public repos | ⭐ Stars earned | 👥 Followers | 📅 On GitHub since |
@@ -147,41 +130,6 @@ Java              █░░░░░░░░░░░░░░░░░░░  
 C                 ░░░░░░░░░░░░░░░░░░░░    2.5%
 ```
 <!-- STATS:END -->
-
----
-
-## 🐱 Pet my pixel cat
-
-<!-- PET:START -->
-<p align="center">
-  <a href="https://github.com/saurabh13113/saurabh13113/issues/new?title=pet-me&body=Just%20petting%20the%20cat%20%F0%9F%90%B1.%20There%27s%20nothing%20to%20write%3A%20click%20%E2%80%9CSubmit%20new%20issue%E2%80%9D%20and%20the%20bot%20does%20the%20rest."><img src="pet/pixel-happy.svg" width="320" alt="Pixel, a pixel cat, is happy. Click to pet." /></a><br>
-  <b>Pixel is purring 💙</b> · petted <b>1</b> time<br>
-  <sub>👆 Click the cat to pet it. It opens a pre-filled issue (you need to be signed in to GitHub) and a bot does the rest.</sub>
-</p>
-
-<p align="center"><sub>Recent petters: [@saurabh13113](https://github.com/saurabh13113)</sub></p>
-<!-- PET:END -->
-
----
-
-## 🌳 My bonsai
-
-<p align="center">
-  <img src="output/bonsai-growth.gif" alt="A pixel-art bonsai grown from my GitHub activity" width="360" /><br>
-  <sub>Grown from my GitHub history with <a href="https://github.com/egorthinks/git-bonsai">git-bonsai</a>: streaks add blossoms, long gaps leave deadwood.</sub>
-</p>
-
----
-
-## 🐍 Contribution snake
-
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/saurabh13113/saurabh13113/output/github-contribution-grid-snake-dark.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/saurabh13113/saurabh13113/output/github-contribution-grid-snake.svg" />
-    <img alt="Contribution snake animation" src="https://raw.githubusercontent.com/saurabh13113/saurabh13113/output/github-contribution-grid-snake-dark.svg" />
-  </picture>
-</p>
 
 ---
 
@@ -202,6 +150,43 @@ C                 ░░░░░░░░░░░░░░░░░░░░  
 <!-- ACTIVITY:START -->
 - ⬆️ Pushed 9 commits to [neetcode-submissions](https://github.com/saurabh13113/neetcode-submissions) · <sub>16d ago</sub>
 <!-- ACTIVITY:END -->
+
+---
+
+## 🎮 Just for fun
+
+### 🐱 Pet my pixel cat
+
+<!-- PET:START -->
+<p align="center">
+  <a href="https://github.com/saurabh13113/saurabh13113/issues/new?title=pet-me&body=Just%20petting%20the%20cat%20%F0%9F%90%B1.%20There%27s%20nothing%20to%20write%3A%20click%20%E2%80%9CSubmit%20new%20issue%E2%80%9D%20and%20the%20bot%20does%20the%20rest."><img src="pet/pixel-happy.svg" width="320" alt="Pixel, a pixel cat, is happy. Click to pet." /></a><br>
+  <b>Pixel is purring 💙</b> · petted <b>1</b> time<br>
+  <sub>👆 Click the cat to pet it. It opens a pre-filled issue (you need to be signed in to GitHub) and a bot does the rest.</sub>
+</p>
+
+<p align="center"><sub>Recent petters: <a href="https://github.com/saurabh13113">@saurabh13113</a></sub></p>
+<!-- PET:END -->
+
+---
+
+### 🌳 My bonsai
+
+<p align="center">
+  <img src="output/bonsai-growth.gif" alt="A pixel-art bonsai grown from my GitHub activity" width="360" /><br>
+  <sub>Grown from my GitHub history with <a href="https://github.com/egorthinks/git-bonsai">git-bonsai</a>: streaks add blossoms, long gaps leave deadwood.</sub>
+</p>
+
+---
+
+### 🐍 Contribution snake
+
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/saurabh13113/saurabh13113/output/github-contribution-grid-snake-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/saurabh13113/saurabh13113/output/github-contribution-grid-snake.svg" />
+    <img alt="Contribution snake animation" src="https://raw.githubusercontent.com/saurabh13113/saurabh13113/output/github-contribution-grid-snake-dark.svg" />
+  </picture>
+</p>
 
 ---
 

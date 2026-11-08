@@ -113,7 +113,7 @@ def render(state, now):
         "</p>",
     ]
     if state["recent"]:
-        people = ", ".join(f"[@{u}](https://github.com/{u})" for u in state["recent"])
+        people = ", ".join(f'<a href="https://github.com/{u}">@{u}</a>' for u in state["recent"])
         lines += ["", f'<p align="center"><sub>Recent petters: {people}</sub></p>']
     return "\n".join(lines)
 

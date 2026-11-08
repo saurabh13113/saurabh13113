@@ -19,6 +19,8 @@ TOKEN = os.environ.get("GITHUB_TOKEN", "")
 README = os.environ.get("README_PATH", "README.md")
 MAX_REPOS = 5
 MAX_EVENTS = 6
+# Practice / coursework repos: real, but not "shipped" work.
+HIDE = re.compile(r"neetcode|eco225|tut\d|tutorial|-testing$", re.I)
 
 
 def api(path):
@@ -53,6 +55,7 @@ def recent_repos():
     repos = [
         r for r in repos
         if not r["fork"] and r["name"].lower() != USER.lower() and r["description"]
+        and not HIDE.search(r["name"])
     ]
     lines = ["| Repo | What it is | Lang | Updated |", "|---|---|---|---|"]
     for r in repos[:MAX_REPOS]:
@@ -89,7 +92,7 @@ def activity():
     items = {}  # insertion-ordered, newest first
     for ev in events:
         # skip noise from the profile repo itself (the bot's own README commits)
-        if ev["repo"]["name"].lower() == f"{USER}/{USER}".lower():
+        if ev["repo"]["name"].lower() == f"{USER}/{USER}".lower() or HIDE.search(ev["repo"]["name"]):
             continue
         if ev["type"] == "PushEvent":
             # collapse many pushes to one repo into a single line with a total
