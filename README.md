@@ -138,11 +138,11 @@ C                 ░░░░░░░░░░░░░░░░░░░░  
 <!-- RECENT_REPOS:START -->
 | Repo | What it is | Lang | Updated |
 |---|---|---|---|
-| [ClinicEar-GenAI2026](https://github.com/saurabh13113/ClinicEar-GenAI2026) | AI clinical scribe: real-time SOAP notes + ICD-10 suggestions (GenAI Genesis 2026) | TypeScript | 238d ago |
-| [pantry-app](https://github.com/saurabh13113/pantry-app) | Summer Project that uses FireBase, React and Next.js to build a simple pantry tracker app. | JavaScript | 239d ago |
-| [math-chatbot](https://github.com/saurabh13113/math-chatbot) | Summer Project that uses Meta Llama to build an AI chatbot to help students out on a math website that helps with math problems and practice math using next.js, react, vercel. | JavaScript | 239d ago |
-| [feynomenon-chatbot](https://github.com/saurabh13113/feynomenon-chatbot) | Winner, TMU Solution Hacks '25: adaptive Feynman-technique AI tutor | TypeScript | 239d ago |
-| [battleship-solitaire-solver](https://github.com/saurabh13113/battleship-solitaire-solver) | University project that solves Battleship solitaire game using Constraint Satisfaction and GAC. | Python | 679d ago |
+| [ClinicEar-GenAI2026](https://github.com/saurabh13113/ClinicEar-GenAI2026) | AI clinical scribe: real-time SOAP notes + ICD-10 suggestions (GenAI Genesis 2026) | TypeScript | 239d ago |
+| [pantry-app](https://github.com/saurabh13113/pantry-app) | Summer Project that uses FireBase, React and Next.js to build a simple pantry tracker app. | JavaScript | 240d ago |
+| [math-chatbot](https://github.com/saurabh13113/math-chatbot) | Summer Project that uses Meta Llama to build an AI chatbot to help students out on a math website that helps with math problems and practice math using next.js, react, vercel. | JavaScript | 240d ago |
+| [feynomenon-chatbot](https://github.com/saurabh13113/feynomenon-chatbot) | Winner, TMU Solution Hacks '25: adaptive Feynman-technique AI tutor | TypeScript | 240d ago |
+| [battleship-solitaire-solver](https://github.com/saurabh13113/battleship-solitaire-solver) | University project that solves Battleship solitaire game using Constraint Satisfaction and GAC. | Python | 680d ago |
 <!-- RECENT_REPOS:END -->
 
 ## 🕒 Latest activity <sub>(auto-updated)</sub>
