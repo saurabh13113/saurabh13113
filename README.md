@@ -159,8 +159,8 @@ _Nothing public lately, check back soon._
 
 <!-- PET:START -->
 <p align="center">
-  <a href="https://github.com/saurabh13113/saurabh13113/issues/new?title=pet-me&body=Just%20petting%20the%20cat%20%F0%9F%90%B1.%20There%27s%20nothing%20to%20write%3A%20click%20%E2%80%9CSubmit%20new%20issue%E2%80%9D%20and%20the%20bot%20does%20the%20rest."><img src="pet/pixel-idle.svg" width="320" alt="Pixel, a pixel cat, is idle. Click to pet." /></a><br>
-  <b>Pixel is chilling</b> · petted <b>1</b> time<br>
+  <a href="https://github.com/saurabh13113/saurabh13113/issues/new?title=pet-me&body=Just%20petting%20the%20cat%20%F0%9F%90%B1.%20There%27s%20nothing%20to%20write%3A%20click%20%E2%80%9CSubmit%20new%20issue%E2%80%9D%20and%20the%20bot%20does%20the%20rest."><img src="pet/pixel-sleepy.svg" width="320" alt="Pixel, a pixel cat, is sleepy. Click to pet." /></a><br>
+  <b>Pixel is asleep 💤</b> · petted <b>1</b> time<br>
   <sub>👆 Click the cat to pet it. It opens a pre-filled issue (you need to be signed in to GitHub) and a bot does the rest.</sub>
 </p>
 
